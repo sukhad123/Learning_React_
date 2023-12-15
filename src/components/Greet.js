@@ -8,6 +8,14 @@ import react from 'react'
 // }
 
 
-const Greet = () => <h1>Hi sukhad</h1>//this is a inline function
+const Greet = (props) =>
+{
+    return (
+        <div>
+ <h1>Hi {props.firstName} {props.lastName}</h1>
+ {props.children}
+ </div>
+    )
+}
 
 export default Greet;//exporting the function
