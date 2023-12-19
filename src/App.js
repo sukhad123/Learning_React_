@@ -3,6 +3,9 @@ import Greet from './components/Greet'//importing the greet function from the gr
 import Welcome from './components/Welcome' //importing the welcome function from the welcome file
 import Hello from './components/Hello'
 import Counter from './components/Counter'
+import Functionclick from './components/FunctionClick'
+import Classclick from './components/Classclick'
+import EventBlind from './components/EventBlind'
 import './App.css';
 
 function App() {
@@ -14,6 +17,10 @@ function App() {
    {/* <Greet firstName = 'Sukhad' lastName = 'Adhikari'> <button>Action</button></Greet> */}
    <Welcome/>
    <Counter/>
+   <Functionclick/>
+   <Classclick></Classclick>
+   <EventBlind/>
+   
     </div>
   );
 }

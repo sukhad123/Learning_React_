@@ -41,7 +41,7 @@ increamentFive()
         <div>
         <div>{this.state.counter}</div>
         <button onClick ={()=>{this.decreament()}} >-</button>
-        <button onClick ={()=>{this.increamentFive()}}>  +
+        <button onClick ={()=>{this.increament()}}>  +
         </button>
         </div>
         )
